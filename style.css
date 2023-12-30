@@ -1,0 +1,71 @@
+section{
+   
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.fr-aic{
+    display: flex;
+    align-items: center ;
+}
+.create-issue-btn{
+  border:none;
+  background-color: transparent;   
+  color:rgb(34, 33, 33);
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
+.create-issue-btn:hover{
+    background-color: rgb(114, 114, 114);
+}
+.container{
+   min-width: min(250px, 90vw);
+    height: 500px;
+    background-color: grey;
+    border-radius:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto
+} 
+.container > p{
+    color:rgb(34, 33, 33);
+    font-size: 18px;
+
+}
+input{
+   width:100%; 
+   border:1px solid grey;
+   resize: none;
+   border-radius: 4px;
+   padding-bottom: 30px;
+}
+.hide{
+    display: none;
+}
+
+
+.card{
+    background-color: white;
+    padding:20px 30px;
+     display: flex;
+     justify-content: space-between;
+     color:rgb(36, 36, 36);
+     border-radius: 2px;
+     box-shadow: 1px 1px 3px rgb(92, 89, 89);
+}
+.card>span{
+    font-size:500;
+
+
+}
+.card>.material-icons{
+    cursor:pointer;
+    font-size:16px !important;
+}

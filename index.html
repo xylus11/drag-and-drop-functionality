@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container" id="todo">
+            <p>To Do</p>
+           <button class="fr-aic create-issue-btn" id ="create-issue-btn"> 
+            <span class="material-icons"> add</span>
+            <span> Create issue</span>
+    
+           </button>
+        
+            <input 
+            id="issue-inp" 
+            class="hide"
+             placeholder="what neeeds to be done?"
+              rows="6" 
+              onkeyup="" />
+        
+       
+        </div>
+        
+        <div class="container" id="inprogress">
+            <p>In progress</p>
+        </div>
+        <div class="container" id="done">
+            <p> Done</p>
+        </div>
+        
+    </section>
+    
+    <script src="script.js"></script>
+    <script src="dragging.js"></script>
+</body>
+</html>
